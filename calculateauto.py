@@ -29,7 +29,6 @@ print "Reading Travel Time..."
 #Build empty array for loading and storing travel times in memory
 AUTOTIME_AM = [[0.0 for x in range(2882)] for y in range(2882)]
 AUTOTIME_PM = [[0.0 for x in range(2882)] for y in range(2882)]
-#TRANSITTIME = [[0.0 for x in range(2882)] for y in range(2882)]
 
 #load travel times into matrices
 with arcpy.da.SearchCursor(TRAVELTIME_AM,"*") as cur:
