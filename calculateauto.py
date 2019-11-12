@@ -15,11 +15,11 @@ SE = "SE_File_v83_SE23_Net23.dbf"
 
 #Location of TAZ to TAZ travel time matrix (skim) for morning peak commute window
 #Important Note: These two DBF files is skim data normalized into OID, I, J, TimeAuto, row format using the SkimMTXToNormalizedIJDBF script
-TRAVELTIME_AM = "autoskim_TIP_AM.dbf"
+TRAVELTIME_AM = "autoskim_AM.dbf"
 
 #Important Note: These two DBF files is skim data normalized into OID, I, J, TimeAuto, row format using the SkimMTXToNormalizedIJDBF script
 #Location of TAZ to TAZ travel time matrix (skim) for afternoon peak commute window
-TRAVELTIME_PM = "autoskim_TIP_PM.dbf"
+TRAVELTIME_PM = "autoskim_PM.dbf"
 
 #End Input Variables
 ######################
